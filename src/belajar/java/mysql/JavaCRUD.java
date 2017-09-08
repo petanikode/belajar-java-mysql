@@ -166,7 +166,7 @@ public class JavaCRUD {
             // hapus data
             stmt.execute(sql);
             
-            System.out.println("Data terlah terhapus...");
+            System.out.println("Data telah terhapus...");
         } catch (Exception e) {
             e.printStackTrace();
         }
